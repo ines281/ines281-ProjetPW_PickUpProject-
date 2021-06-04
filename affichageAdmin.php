@@ -103,7 +103,7 @@ if(isset($_POST['nom']) && isset($_POST['prénom']) && isset($_POST['classe'])){
     <ul>
         <?php while($projet = $nomsProjets -> fetch()) { ?>
             <li> <a href="projetAdmin.php?idProjet=<?= $projet['idProjet'] ?> "> <?= $projet['idProjet'] ?> <?= $projet['nomProjet'] ?> </a>
-             | <a href="modifProjetAdmin.php?edit=<?= $projet['idProjet'] ?>" > Modifier </a> | <a href="modifProjetAdmin.php?edit=<?= $projet['idProjet'] ?>&suppressio" > Supprimer </a>
+             | <a href="modifProjetAdmin.php?edit=<?= $projet['idProjet'] ?>" > Modifier </a> | <a href="modifProjetAdmin.php?edit=<?= $projet['idProjet'] ?>&suppression=1" > Supprimer </a>
         <?php } ?>
     <ul>
     <br/>
