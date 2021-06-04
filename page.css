@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #F0F3F4 ;
+}
+a {
+  outline: none;
+  text-decoration: none;
+     padding: 0.25em 0.25em;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+a.dec{
+     text-align: right; 
+     position:relative;float:right;
+       outline: none;
+  text-decoration: none;
+display: inline;
+     padding: 0.25em 0.25em;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+a:link {
+  color: #265301;
+}
+
+a:visited {
+  color: #437A16;
+}
+
+a:focus {
+  color: #BAE498;
+}
+
+a:hover {
+  color: #ABEBC6 ;
+}
+
+a:active {
+  color: #CDFEAA;
+}
